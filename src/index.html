@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Webpack Boilerplate Starter Template</title>
+  <meta name="description"
+    content="Simple starter webpack 5 project template boilerplate supporting SASS/PostCSS, Babel ES7, browser syncing, code linting. Easy project setup having multiple features and developer friendly tools." />
+  <meta name="keywords"
+    content="webpack, webpack-configuration, template, boilerplate, setup, html, css, sass, javascript" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Plamen Nikolov, WeAreAthlon" />
+
+
+  <link rel="preconnect" as="image" href="https://source.unsplash.com/2000x2000/?travel,festival,beach">
+</head>
+
+<body>
+
+  <main class="container">
+    <header class="header__wrapper">
+
+      <section class="header__block ">
+        <section class="header__personal">
+          <p class="header__headshot"><img
+              src="http://insightsurfer.net/gulp/MicrositePortfolio/web/resources/images/profile.png"
+              class="header__headshot__img">
+          </p> 
+
+          <div class="header__summary">
+            <p>ryann al-lahiq</p>
+
+            <p>experienced Front-End Developer
+              <!--  transition 6 years in the making -->
+            </p>
+
+            <p>based in London, UK</p>
+            <div class="header__contact__social ">
+              
+              <a href="#/" title="Download My Resume (PDF)" target="_blank" class="header__contact__social__link">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" class="icon__social" fill="none" width="24" height="24"
+                  viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg> -->
+
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="950px" height="950px" viewBox="0 0 950 950" style="enable-background:new 0 0 950 950;" xml:space="preserve"  class="icon__social">
+<g>
+	<g>
+		<path d="M300.671,630.936v84.662h-58.51c-12.415,0-18.365,15.246-9.232,23.656L452.12,941.07c12.93,11.906,32.828,11.906,45.759,0
+			l219.19-201.816c9.135-8.408,3.185-23.656-9.231-23.656h-58.509v-84.662H300.671z"/>
+		<path d="M292.463,134.036V2.661c-3.189,1.452-6.128,3.466-8.653,5.992L134.666,157.797c-2.526,2.525-4.54,5.464-5.992,8.653
+			h131.375C277.951,166.45,292.463,151.938,292.463,134.036z"/>
+		<path d="M155.557,605.348h145.114h348.658h145.114c16.317,0,29.545-13.229,29.545-29.545V29.545
+			C823.988,13.228,810.761,0,794.443,0H318.051v134.036c0,31.983-26.021,58.003-58.003,58.003H126.012v383.764
+			C126.012,592.119,139.24,605.348,155.557,605.348z M307.329,276.253h335.344c7.065,0,12.794,5.728,12.794,12.794
+			s-5.729,12.794-12.794,12.794H307.329c-7.066,0-12.794-5.728-12.794-12.794S300.263,276.253,307.329,276.253z M300.671,419.024
+			c1.94-1.187,4.215-1.884,6.657-1.884h335.344c2.442,0,4.716,0.696,6.657,1.883c3.676,2.248,6.137,6.287,6.137,10.911
+			s-2.461,8.663-6.137,10.911c-1.941,1.187-4.216,1.883-6.657,1.883H307.329c-2.442,0-4.717-0.697-6.657-1.884
+			c-3.676-2.248-6.137-6.286-6.137-10.911S296.996,421.271,300.671,419.024z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+              </a>
+              <a href="https://uk.linkedin.com/in/ryannwithtwons" title="Get In Touch On My LinkedIn" target="_blank" class="header__contact__social__link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="icon__social">
+                  <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg>
+              </a>
+
+              <a href="#/" title="Checkout This Build On My Github" class="header__contact__social__link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="icon__social">
+                  <path
+                    d="M0 0v24h24v-24h-24zm14.534 19.59c-.406.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.311-1.588-.824-2.147.083-.202.357-1.016-.079-2.117 0 0-.671-.215-2.198.82-.639-.18-1.323-.267-2.003-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z" />
+                </svg>
+              </a>
+
+           
+              <a href="https://open.spotify.com/playlist/5XwD3GdQDrsoYiQC43SDXZ" title="Coding Music Playlist || Music To Code To" target="_blank" class="header__contact__social__link">
+          
+
+              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="98.372px" height="98.372px" viewBox="0 0 98.372 98.372" style="enable-background:new 0 0 98.372 98.372;" 
+	 xml:space="preserve" class="icon__social">
+<g>
+	<g id="Layer_1_1_">
+		<path d="M49.186,0.002C22.022,0.002,0,22.021,0,49.186C0,76.35,22.022,98.37,49.186,98.37c27.164,0,49.186-22.021,49.186-49.185
+			C98.372,22.021,76.35,0.002,49.186,0.002z M68.116,72.547c-0.796,0-1.339-0.275-2.082-0.729c-7.129-4.313-16.019-6.58-25.449-6.58
+			c-5.264,0-10.561,0.677-15.515,1.707c-0.805,0.175-1.817,0.484-2.425,0.484c-1.867,0-3.111-1.482-3.111-3.092
+			c0-2.064,1.19-3.096,2.675-3.379c6.075-1.385,12.125-2.176,18.409-2.176c10.762,0,20.354,2.471,28.608,7.418
+			c1.228,0.717,1.947,1.449,1.947,3.27C71.174,71.245,69.732,72.547,68.116,72.547z M73.475,59.529
+			c-1.067,0-1.738-0.432-2.465-0.854c-8-4.748-19.09-7.902-31.232-7.902c-6.228,0-11.604,0.873-16.053,2.058
+			c-0.959,0.265-1.496,0.549-2.394,0.549c-2.114,0-3.842-1.726-3.842-3.856c0-2.091,1.015-3.529,3.059-4.105
+			c5.529-1.52,11.177-2.689,19.394-2.689c12.875,0,25.33,3.206,35.121,9.066c1.642,0.939,2.246,2.137,2.246,3.887
+			C77.309,57.809,75.613,59.529,73.475,59.529z M79.577,44.389c-1,0-1.595-0.244-2.533-0.758
+			c-8.901-5.338-22.719-8.277-36.079-8.277c-6.67,0-13.443,0.679-19.648,2.362c-0.715,0.179-1.616,0.537-2.521,0.537
+			c-2.624,0-4.638-2.076-4.638-4.699c0-2.674,1.656-4.174,3.442-4.701c7.012-2.065,14.838-3.027,23.346-3.027
+			c14.443,0,29.639,2.971,40.738,9.488c1.496,0.849,2.533,2.126,2.533,4.468C84.215,42.462,82.061,44.389,79.577,44.389z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+            </a>
+            </div>
+          </div>
+
+
+
+        </section> 
+        <aside class="header__search">
+
+          <!-- <h1 class="header__title"> portfolio timeline</h1> -->
+          <div class="filter__wapper">
+            <select class="filter__select">
+              <option>Filter by Year</option>
+              <option>apples</option>
+              <option>banana</option>
+              <option>pear</option>
+              <option>orange</option>
+            </select>
+            <select class="filter__select">
+              <option>Filter by Location</option>
+              <option>apples</option>
+              <option>banana</option>
+              <option>pear</option>
+              <option>orange</option>
+            </select>
+          </div>
+
+
+        <aside>
+        
+      </section>
+    </header>
+    <img class="inline__image" src="https://source.unsplash.com/2000x2800/?travel,festival,beach" />
+
+
+    <article class="ticket__wrapper">
+
+      <!-- ticket wrapper -->
+      <div class="ticket">
+
+        <aside class="ticket-sub">
+          <h3>Admit one</h3>
+          <p>No 06900666</p>
+        </aside>
+        <section class="ticket-main">
+          <section class="ticket-seat">
+            <h3>sector: web development</h3>
+            <div class="ticket-seat-box">
+              <p>Year</p>
+              <h4>2020</h4>
+
+
+            </div>
+            <div class="ticket-seat-box">
+              <p>Role</p>
+              <h4>Contract</h4>
+            </div>
+            <div class="ticket-seat-box">
+              <p>Skill</p>
+              <h4>Front-End</h4>
+
+            </div>
+          </section>
+          <section class="ticket-info">
+            <div class="ticket-info-brand">
+              <h3 class="copy__job-title">Spring Studios</h3>
+              <!-- <h3 class="copy__job-title">asdfasfSpring Studios</h3> -->
+            </div>
+            <div class="ticket-info-brawler">
+              <div class="brawler">
+                <span>From</span>
+                <span>March</span>
+              </div>
+              <div class="separator">
+                <div class="flip-this">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon__svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                  </svg>
+                </div>
+              </div>
+              <div class="brawler">
+                <span>To</span>
+                <span>July</span>
+              </div>
+            </div>
+            <!-- company overview profile -->
+            <div class="ticket-info-referee">
+              <span>Company Profile:</span>
+              <span>Moving Brands is an independent, global creative
+                company</span>
+            </div>
+
+            <div class="ticket-info-date">
+              <details class="copy__readmore">
+                <summary class="icon__plus"><svg xmlns="http://www.w3.org/2000/svg" class="icon__svg"
+                    viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                      clip-rule="evenodd" />
+                  </svg></summary>
+
+                <p class="copy__description-role">
+                  <strong class="copy__bold-subtitle">Project Outline:
+                  </strong>
+                  Joined the Dev Team to refactor, improve mobile support,
+                  and fix UI/UX in component features based interpreted from
+                  the UAL Design System/Atomic Design System. Worked with
+                  Digital Design Lead and Back End Developers for sign off
+                  and platform integration
+                </p>
+
+                <p class="copy__description-role">
+                  <strong class="copy__bold-subtitle">Skills Applied:
+                  </strong>
+                  Built out Web Components with HTML5, BEM SASS inside a
+                  Node.js & Gulp.js workflow. Created functional, accessible
+                  and reusable UI with HTML5 & CSS. Emphasis on using
+                  Vanilla JS in place of jQuery methods. Used peer review,
+                  paired programming and mentoring developers in the use of
+                  Git where necessary. Site accessibility tools like Axe and
+                  Site Improve were also used to test against site
+                  compliance and possible accessibility issues
+                </p>
+              </details>
+            </div>
+
+            <div class="ticket-info-date2">
+              <p class="copy__barcode-text">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+            </div>
+            <div class="ticket-info-misc">
+              <p>London liverpool street</p>
+            </div>
+          </section>
+        </section>
+
+        <aside class="ticket__timeline">
+          <div class="ticket__timeline__marker">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ticket__timeline__marker__icon flip-this" viewBox="0 0 20 20"
+              fill="currentColor">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+          </div>
+          <div class="ticket__timeline__line">
+
+          </div>
+        </aside>
+
+        <!-- close ticket wrapper -->
+      </div>
+
+
+      <!-- ticket wrapper -->
+      <div class="ticket">
+
+        <aside class="ticket-sub">
+          <h3>Admit one</h3>
+          <p>No 06900666</p>
+        </aside>
+        <section class="ticket-main">
+          <section class="ticket-seat">
+            <h3>sector: web development</h3>
+            <div class="ticket-seat-box">
+              <p>Year</p>
+              <h4>2020</h4>
+
+
+            </div>
+            <div class="ticket-seat-box">
+              <p>Role</p>
+              <h4>Contract</h4>
+            </div>
+            <div class="ticket-seat-box">
+              <p>Skill</p>
+              <h4>Front-End</h4>
+
+            </div>
+          </section>
+          <section class="ticket-info">
+            <div class="ticket-info-brand">
+              <h3 class="copy__job-title">Spring Studios</h3>
+              <!-- <h3 class="copy__job-title">asdfasfSpring Studios</h3> -->
+            </div>
+            <div class="ticket-info-brawler">
+              <div class="brawler">
+                <span>From</span>
+                <span>March</span>
+              </div>
+              <div class="separator">
+                <div class="flip-this">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon__svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                  </svg>
+                </div>
+              </div>
+              <div class="brawler">
+                <span>To</span>
+                <span>July</span>
+              </div>
+            </div>
+            <!-- company overview profile -->
+            <div class="ticket-info-referee">
+              <span>Company Profile:</span>
+              <span>Moving Brands is an independent, global creative
+                company</span>
+            </div>
+
+            <div class="ticket-info-date">
+              <details class="copy__readmore">
+                <summary class="icon__plus"><svg xmlns="http://www.w3.org/2000/svg" class="icon__svg"
+                    viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                      clip-rule="evenodd" />
+                  </svg></summary>
+
+                <p class="copy__description-role">
+                  <strong class="copy__bold-subtitle">Project Outline:
+                  </strong>
+                  Joined the Dev Team to refactor, improve mobile support,
+                  and fix UI/UX in component features based interpreted from
+                  the UAL Design System/Atomic Design System. Worked with
+                  Digital Design Lead and Back End Developers for sign off
+                  and platform integration
+                </p>
+
+                <p class="copy__description-role">
+                  <strong class="copy__bold-subtitle">Skills Applied:
+                  </strong>
+                  Built out Web Components with HTML5, BEM SASS inside a
+                  Node.js & Gulp.js workflow. Created functional, accessible
+                  and reusable UI with HTML5 & CSS. Emphasis on using
+                  Vanilla JS in place of jQuery methods. Used peer review,
+                  paired programming and mentoring developers in the use of
+                  Git where necessary. Site accessibility tools like Axe and
+                  Site Improve were also used to test against site
+                  compliance and possible accessibility issues
+                </p>
+              </details>
+            </div>
+
+            <div class="ticket-info-date2">
+              <p class="copy__barcode-text">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+            </div>
+            <div class="ticket-info-misc">
+              <p>London liverpool street</p>
+            </div>
+          </section>
+        </section>
+
+        <aside class="ticket__timeline">
+          <div class="ticket__timeline__marker">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ticket__timeline__marker__icon flip-this" viewBox="0 0 20 20"
+              fill="currentColor">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+          </div>
+          <div class="ticket__timeline__line">
+
+          </div>
+        </aside>
+
+        <!-- close ticket wrapper -->
+      </div>
+
+
+      <!-- ticket wrapper -->
+      <div class="ticket">
+
+        <aside class="ticket-sub">
+          <h3>Admit one</h3>
+          <p>No 06900666</p>
+        </aside>
+        <section class="ticket-main">
+          <section class="ticket-seat">
+            <h3>sector: web development</h3>
+            <div class="ticket-seat-box">
+              <p>Year</p>
+              <h4>2020</h4>
+
+
+            </div>
+            <div class="ticket-seat-box">
+              <p>Role</p>
+              <h4>Contract</h4>
+            </div>
+            <div class="ticket-seat-box">
+              <p>Skill</p>
+              <h4>Front-End</h4>
+
+            </div>
+          </section>
+          <section class="ticket-info">
+            <div class="ticket-info-brand">
+              <h3 class="copy__job-title">Spring Studios</h3>
+              <!-- <h3 class="copy__job-title">asdfasfSpring Studios</h3> -->
+            </div>
+            <div class="ticket-info-brawler">
+              <div class="brawler">
+                <span>From</span>
+                <span>March</span>
+              </div>
+              <div class="separator">
+                <div class="flip-this">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon__svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                  </svg>
+                </div>
+              </div>
+              <div class="brawler">
+                <span>To</span>
+                <span>July</span>
+              </div>
+            </div>
+            <!-- company overview profile -->
+            <div class="ticket-info-referee">
+              <span>Company Profile:</span>
+              <span>Moving Brands is an independent, global creative
+                company</span>
+            </div>
+
+            <div class="ticket-info-date">
+              <details class="copy__readmore">
+                <summary class="icon__plus"><svg xmlns="http://www.w3.org/2000/svg" class="icon__svg"
+                    viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                      clip-rule="evenodd" />
+                  </svg></summary>
+
+                <p class="copy__description-role">
+                  <strong class="copy__bold-subtitle">Project Outline:
+                  </strong>
+                  Joined the Dev Team to refactor, improve mobile support,
+                  and fix UI/UX in component features based interpreted from
+                  the UAL Design System/Atomic Design System. Worked with
+                  Digital Design Lead and Back End Developers for sign off
+                  and platform integration
+                </p>
+
+                <p class="copy__description-role">
+                  <strong class="copy__bold-subtitle">Skills Applied:
+                  </strong>
+                  Built out Web Components with HTML5, BEM SASS inside a
+                  Node.js & Gulp.js workflow. Created functional, accessible
+                  and reusable UI with HTML5 & CSS. Emphasis on using
+                  Vanilla JS in place of jQuery methods. Used peer review,
+                  paired programming and mentoring developers in the use of
+                  Git where necessary. Site accessibility tools like Axe and
+                  Site Improve were also used to test against site
+                  compliance and possible accessibility issues
+                </p>
+              </details>
+            </div>
+
+            <div class="ticket-info-date2">
+              <p class="copy__barcode-text">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+            </div>
+            <div class="ticket-info-misc">
+              <p>London liverpool street</p>
+            </div>
+          </section>
+        </section>
+
+        <aside class="ticket__timeline">
+          <div class="ticket__timeline__marker">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ticket__timeline__marker__icon flip-this" viewBox="0 0 20 20"
+              fill="currentColor">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+          </div>
+          <div class="ticket__timeline__line">
+
+          </div>
+        </aside>
+
+        <!-- close ticket wrapper -->
+      </div>
+
+
+      <!-- ticket wrapper -->
+      <div class="ticket">
+
+        <aside class="ticket-sub">
+          <h3>Admit one</h3>
+          <p>No 06900666</p>
+        </aside>
+        <section class="ticket-main">
+          <section class="ticket-seat">
+            <h3>sector: web development</h3>
+            <div class="ticket-seat-box">
+              <p>Year</p>
+              <h4>2020</h4>
+
+
+            </div>
+            <div class="ticket-seat-box">
+              <p>Role</p>
+              <h4>Contract</h4>
+            </div>
+            <div class="ticket-seat-box">
+              <p>Skill</p>
+              <h4>Front-End</h4>
+
+            </div>
+          </section>
+          <section class="ticket-info">
+            <div class="ticket-info-brand">
+              <h3 class="copy__job-title">Spring Studios</h3>
+              <!-- <h3 class="copy__job-title">asdfasfSpring Studios</h3> -->
+            </div>
+            <div class="ticket-info-brawler">
+              <div class="brawler">
+                <span>From</span>
+                <span>March</span>
+              </div>
+              <div class="separator">
+                <div class="flip-this">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon__svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                  </svg>
+                </div>
+              </div>
+              <div class="brawler">
+                <span>To</span>
+                <span>July</span>
+              </div>
+            </div>
+            <!-- company overview profile -->
+            <div class="ticket-info-referee">
+              <span>Company Profile:</span>
+              <span>Moving Brands is an independent, global creative
+                company</span>
+            </div>
+
+            <div class="ticket-info-date">
+              <details class="copy__readmore">
+                <summary class="icon__plus"><svg xmlns="http://www.w3.org/2000/svg" class="icon__svg"
+                    viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                      clip-rule="evenodd" />
+                  </svg></summary>
+
+                <p class="copy__description-role">
+                  <strong class="copy__bold-subtitle">Project Outline:
+                  </strong>
+                  Joined the Dev Team to refactor, improve mobile support,
+                  and fix UI/UX in component features based interpreted from
+                  the UAL Design System/Atomic Design System. Worked with
+                  Digital Design Lead and Back End Developers for sign off
+                  and platform integration
+                </p>
+
+                <p class="copy__description-role">
+                  <strong class="copy__bold-subtitle">Skills Applied:
+                  </strong>
+                  Built out Web Components with HTML5, BEM SASS inside a
+                  Node.js & Gulp.js workflow. Created functional, accessible
+                  and reusable UI with HTML5 & CSS. Emphasis on using
+                  Vanilla JS in place of jQuery methods. Used peer review,
+                  paired programming and mentoring developers in the use of
+                  Git where necessary. Site accessibility tools like Axe and
+                  Site Improve were also used to test against site
+                  compliance and possible accessibility issues
+                </p>
+              </details>
+            </div>
+
+            <div class="ticket-info-date2">
+              <p class="copy__barcode-text">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+            </div>
+            <div class="ticket-info-misc">
+              <p>London liverpool street</p>
+            </div>
+          </section>
+        </section>
+
+        <aside class="ticket__timeline">
+          <div class="ticket__timeline__marker">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ticket__timeline__marker__icon flip-this" viewBox="0 0 20 20"
+              fill="currentColor">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+          </div>
+          <div class="ticket__timeline__line">
+
+          </div>
+        </aside>
+
+        <!-- close ticket wrapper -->
+      </div>
+
+
+      <!-- ticket wrapper -->
+      <div class="ticket">
+
+        <aside class="ticket-sub">
+          <h3>Admit one</h3>
+          <p>No 06900666</p>
+        </aside>
+        <section class="ticket-main">
+          <section class="ticket-seat">
+            <h3>sector: web development</h3>
+            <div class="ticket-seat-box">
+              <p>Year</p>
+              <h4>2020</h4>
+
+
+            </div>
+            <div class="ticket-seat-box">
+              <p>Role</p>
+              <h4>Contract</h4>
+            </div>
+            <div class="ticket-seat-box">
+              <p>Skill</p>
+              <h4>Front-End</h4>
+
+            </div>
+          </section>
+          <section class="ticket-info">
+            <div class="ticket-info-brand">
+              <h3 class="copy__job-title">Spring Studios</h3>
+              <!-- <h3 class="copy__job-title">asdfasfSpring Studios</h3> -->
+            </div>
+            <div class="ticket-info-brawler">
+              <div class="brawler">
+                <span>From</span>
+                <span>March</span>
+              </div>
+              <div class="separator">
+                <div class="flip-this">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon__svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                  </svg>
+                </div>
+              </div>
+              <div class="brawler">
+                <span>To</span>
+                <span>July</span>
+              </div>
+            </div>
+            <!-- company overview profile -->
+            <div class="ticket-info-referee">
+              <span>Company Profile:</span>
+              <span>Moving Brands is an independent, global creative
+                company</span>
+            </div>
+
+            <div class="ticket-info-date">
+              <details class="copy__readmore">
+                <summary class="icon__plus"><svg xmlns="http://www.w3.org/2000/svg" class="icon__svg"
+                    viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                      clip-rule="evenodd" />
+                  </svg></summary>
+
+                <p class="copy__description-role">
+                  <strong class="copy__bold-subtitle">Project Outline:
+                  </strong>
+                  Joined the Dev Team to refactor, improve mobile support,
+                  and fix UI/UX in component features based interpreted from
+                  the UAL Design System/Atomic Design System. Worked with
+                  Digital Design Lead and Back End Developers for sign off
+                  and platform integration
+                </p>
+
+                <p class="copy__description-role">
+                  <strong class="copy__bold-subtitle">Skills Applied:
+                  </strong>
+                  Built out Web Components with HTML5, BEM SASS inside a
+                  Node.js & Gulp.js workflow. Created functional, accessible
+                  and reusable UI with HTML5 & CSS. Emphasis on using
+                  Vanilla JS in place of jQuery methods. Used peer review,
+                  paired programming and mentoring developers in the use of
+                  Git where necessary. Site accessibility tools like Axe and
+                  Site Improve were also used to test against site
+                  compliance and possible accessibility issues
+                </p>
+              </details>
+            </div>
+
+            <div class="ticket-info-date2">
+              <p class="copy__barcode-text">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+            </div>
+            <div class="ticket-info-misc">
+              <p>London liverpool street</p>
+            </div>
+          </section>
+        </section>
+
+        <aside class="ticket__timeline">
+          <div class="ticket__timeline__marker">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ticket__timeline__marker__icon flip-this" viewBox="0 0 20 20"
+              fill="currentColor">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+          </div>
+          <div class="ticket__timeline__line">
+
+          </div>
+        </aside>
+
+        <!-- close ticket wrapper -->
+      </div>
+
+
+      <!-- ticket wrapper -->
+      <div class="ticket">
+
+        <aside class="ticket-sub">
+          <h3>Admit one</h3>
+          <p>No 06900666</p>
+        </aside>
+        <section class="ticket-main">
+          <section class="ticket-seat">
+            <h3>sector: web development</h3>
+            <div class="ticket-seat-box">
+              <p>Year</p>
+              <h4>2020</h4>
+
+
+            </div>
+            <div class="ticket-seat-box">
+              <p>Role</p>
+              <h4>Contract</h4>
+            </div>
+            <div class="ticket-seat-box">
+              <p>Skill</p>
+              <h4>Front-End</h4>
+
+            </div>
+          </section>
+          <section class="ticket-info">
+            <div class="ticket-info-brand">
+              <h3 class="copy__job-title">Spring Studios</h3>
+              <!-- <h3 class="copy__job-title">asdfasfSpring Studios</h3> -->
+            </div>
+            <div class="ticket-info-brawler">
+              <div class="brawler">
+                <span>From</span>
+                <span>March</span>
+              </div>
+              <div class="separator">
+                <div class="flip-this">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon__svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                  </svg>
+                </div>
+              </div>
+              <div class="brawler">
+                <span>To</span>
+                <span>July</span>
+              </div>
+            </div>
+            <!-- company overview profile -->
+            <div class="ticket-info-referee">
+              <span>Company Profile:</span>
+              <span>Moving Brands is an independent, global creative
+                company</span>
+            </div>
+
+            <div class="ticket-info-date">
+              <details class="copy__readmore">
+                <summary class="icon__plus"><svg xmlns="http://www.w3.org/2000/svg" class="icon__svg"
+                    viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                      clip-rule="evenodd" />
+                  </svg></summary>
+
+                <p class="copy__description-role">
+                  <strong class="copy__bold-subtitle">Project Outline:
+                  </strong>
+                  Joined the Dev Team to refactor, improve mobile support,
+                  and fix UI/UX in component features based interpreted from
+                  the UAL Design System/Atomic Design System. Worked with
+                  Digital Design Lead and Back End Developers for sign off
+                  and platform integration
+                </p>
+
+                <p class="copy__description-role">
+                  <strong class="copy__bold-subtitle">Skills Applied:
+                  </strong>
+                  Built out Web Components with HTML5, BEM SASS inside a
+                  Node.js & Gulp.js workflow. Created functional, accessible
+                  and reusable UI with HTML5 & CSS. Emphasis on using
+                  Vanilla JS in place of jQuery methods. Used peer review,
+                  paired programming and mentoring developers in the use of
+                  Git where necessary. Site accessibility tools like Axe and
+                  Site Improve were also used to test against site
+                  compliance and possible accessibility issues
+                </p>
+              </details>
+            </div>
+
+            <div class="ticket-info-date2">
+              <p class="copy__barcode-text">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+            </div>
+            <div class="ticket-info-misc">
+              <p>London liverpool street</p>
+            </div>
+          </section>
+        </section>
+
+        <aside class="ticket__timeline">
+          <div class="ticket__timeline__marker">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ticket__timeline__marker__icon flip-this" viewBox="0 0 20 20"
+              fill="currentColor">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+          </div>
+          <div class="ticket__timeline__line">
+
+          </div>
+        </aside>
+
+        <!-- close ticket wrapper -->
+      </div>
+
+
+      <!-- ticket wrapper -->
+      <div class="ticket">
+
+        <aside class="ticket-sub">
+          <h3>Admit one</h3>
+          <p>No 06900666</p>
+        </aside>
+        <section class="ticket-main">
+          <section class="ticket-seat">
+            <h3>sector: web development</h3>
+            <div class="ticket-seat-box">
+              <p>Year</p>
+              <h4>2020</h4>
+
+
+            </div>
+            <div class="ticket-seat-box">
+              <p>Role</p>
+              <h4>Contract</h4>
+            </div>
+            <div class="ticket-seat-box">
+              <p>Skill</p>
+              <h4>Front-End</h4>
+
+            </div>
+          </section>
+          <section class="ticket-info">
+            <div class="ticket-info-brand">
+              <h3 class="copy__job-title">Spring Studios</h3>
+              <!-- <h3 class="copy__job-title">asdfasfSpring Studios</h3> -->
+            </div>
+            <div class="ticket-info-brawler">
+              <div class="brawler">
+                <span>From</span>
+                <span>March</span>
+              </div>
+              <div class="separator">
+                <div class="flip-this">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon__svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                  </svg>
+                </div>
+              </div>
+              <div class="brawler">
+                <span>To</span>
+                <span>July</span>
+              </div>
+            </div>
+            <!-- company overview profile -->
+            <div class="ticket-info-referee">
+              <span>Company Profile:</span>
+              <span>Moving Brands is an independent, global creative
+                company</span>
+            </div>
+
+            <div class="ticket-info-date">
+              <details class="copy__readmore">
+                <summary class="icon__plus"><svg xmlns="http://www.w3.org/2000/svg" class="icon__svg"
+                    viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                      clip-rule="evenodd" />
+                  </svg></summary>
+
+                <p class="copy__description-role">
+                  <strong class="copy__bold-subtitle">Project Outline:
+                  </strong>
+                  Joined the Dev Team to refactor, improve mobile support,
+                  and fix UI/UX in component features based interpreted from
+                  the UAL Design System/Atomic Design System. Worked with
+                  Digital Design Lead and Back End Developers for sign off
+                  and platform integration
+                </p>
+
+                <p class="copy__description-role">
+                  <strong class="copy__bold-subtitle">Skills Applied:
+                  </strong>
+                  Built out Web Components with HTML5, BEM SASS inside a
+                  Node.js & Gulp.js workflow. Created functional, accessible
+                  and reusable UI with HTML5 & CSS. Emphasis on using
+                  Vanilla JS in place of jQuery methods. Used peer review,
+                  paired programming and mentoring developers in the use of
+                  Git where necessary. Site accessibility tools like Axe and
+                  Site Improve were also used to test against site
+                  compliance and possible accessibility issues
+                </p>
+              </details>
+            </div>
+
+            <div class="ticket-info-date2">
+              <p class="copy__barcode-text">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+            </div>
+            <div class="ticket-info-misc">
+              <p>London liverpool street</p>
+            </div>
+          </section>
+        </section>
+
+        <aside class="ticket__timeline">
+          <div class="ticket__timeline__marker">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ticket__timeline__marker__icon flip-this" viewBox="0 0 20 20"
+              fill="currentColor">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+          </div>
+          <div class="ticket__timeline__line">
+
+          </div>
+        </aside>
+
+        <!-- close ticket wrapper -->
+      </div>
+
+
+      <!-- ticket wrapper -->
+      <div class="ticket">
+
+        <aside class="ticket-sub">
+          <h3>Admit one</h3>
+          <p>No 06900666</p>
+        </aside>
+        <section class="ticket-main">
+          <section class="ticket-seat">
+            <h3>sector: web development</h3>
+            <div class="ticket-seat-box">
+              <p>Year</p>
+              <h4>2020</h4>
+
+
+            </div>
+            <div class="ticket-seat-box">
+              <p>Role</p>
+              <h4>Contract</h4>
+            </div>
+            <div class="ticket-seat-box">
+              <p>Skill</p>
+              <h4>Front-End</h4>
+
+            </div>
+          </section>
+          <section class="ticket-info">
+            <div class="ticket-info-brand">
+              <h3 class="copy__job-title">Spring Studios</h3>
+              <!-- <h3 class="copy__job-title">asdfasfSpring Studios</h3> -->
+            </div>
+            <div class="ticket-info-brawler">
+              <div class="brawler">
+                <span>From</span>
+                <span>March</span>
+              </div>
+              <div class="separator">
+                <div class="flip-this">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon__svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                  </svg>
+                </div>
+              </div>
+              <div class="brawler">
+                <span>To</span>
+                <span>July</span>
+              </div>
+            </div>
+            <!-- company overview profile -->
+            <div class="ticket-info-referee">
+              <span>Company Profile:</span>
+              <span>Moving Brands is an independent, global creative
+                company</span>
+            </div>
+
+            <div class="ticket-info-date">
+              <details class="copy__readmore">
+                <summary class="icon__plus"><svg xmlns="http://www.w3.org/2000/svg" class="icon__svg"
+                    viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                      clip-rule="evenodd" />
+                  </svg></summary>
+
+                <p class="copy__description-role">
+                  <strong class="copy__bold-subtitle">Project Outline:
+                  </strong>
+                  Joined the Dev Team to refactor, improve mobile support,
+                  and fix UI/UX in component features based interpreted from
+                  the UAL Design System/Atomic Design System. Worked with
+                  Digital Design Lead and Back End Developers for sign off
+                  and platform integration
+                </p>
+
+                <p class="copy__description-role">
+                  <strong class="copy__bold-subtitle">Skills Applied:
+                  </strong>
+                  Built out Web Components with HTML5, BEM SASS inside a
+                  Node.js & Gulp.js workflow. Created functional, accessible
+                  and reusable UI with HTML5 & CSS. Emphasis on using
+                  Vanilla JS in place of jQuery methods. Used peer review,
+                  paired programming and mentoring developers in the use of
+                  Git where necessary. Site accessibility tools like Axe and
+                  Site Improve were also used to test against site
+                  compliance and possible accessibility issues
+                </p>
+              </details>
+            </div>
+
+            <div class="ticket-info-date2">
+              <p class="copy__barcode-text">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+            </div>
+            <div class="ticket-info-misc">
+              <p>London liverpool street</p>
+            </div>
+          </section>
+        </section>
+
+        <aside class="ticket__timeline">
+          <div class="ticket__timeline__marker">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ticket__timeline__marker__icon flip-this" viewBox="0 0 20 20"
+              fill="currentColor">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+          </div>
+          <div class="ticket__timeline__line">
+
+          </div>
+        </aside>
+
+        <!-- close ticket wrapper -->
+      </div>
+
+
+
+
+
+
+
+      <!-- end ticket wrapper and time line  -->
+    </article>
+
+  </main>
+</body>
+
+</html>
