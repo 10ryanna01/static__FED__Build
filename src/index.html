@@ -198,6 +198,19 @@
     <!-- <img class="inline__image"  style="background: grey" /> -->
     <img class="inline__image" src="https://source.unsplash.com/2000x2800/?travel,festival,beach" />
 
+    <picture>
+      <source
+          srcset="https://source.unsplash.com/2000x2800/?travel,festival,beach 320w,
+                  https://source.unsplash.com/2000x2800/?travel,festival,beachg 800w,
+                  https://source.unsplash.com/2000x2800/?travel,festival,beach 1200w"
+          sizes="(min-width: 60rem) 80vw,
+                 (min-width: 40rem) 90vw,
+                 100vw">
+                 <img class="inline__image" src="https://source.unsplash.com/2000x2800/?travel,festival,beach"  decoding="async" alt="background themes from unsplash" />
+ 
+  </picture>
+
+
 
     <article class="ticket__wrapper">
 
